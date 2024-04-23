@@ -88,7 +88,7 @@ def main():
     # Streamlitアプリのタイトルとテキスト入力
     st.title("大喜利のお題にAIが答えてくれるアプリ")
     text_input = st.text_area("大喜利のお題入力欄", value="", key="text_input",
-                              placeholder="ex) AIITで3ヶ月に1度しか提供されない学食のメニューとは")
+                              placeholder="ex) 東京大学で3ヶ月に1度しか提供されない学食のメニューとは")
 
     # 話者を選択するドロップダウンメニュー
     selected_speaker = st.selectbox("お題に答えてくれる人", list(speakers.keys()))
