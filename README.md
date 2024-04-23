@@ -3,7 +3,7 @@
 このプログラムを用いて何らかの損害が発生した場合も自分は責任を取りませんので、ご注意ください。
 ----------
 
-前提
+前提条件は以下です。
 * Voicevoxを以下からダウンロードし、起動していること
   * https://voicevox.hiroshiba.jp/
 * ChatGPTのAPI_KEYを自分のもので記載する。
@@ -14,7 +14,7 @@
   pip install -r requirements.txt
   ```
 
-以下で起動
+以下で起動します。
 ```
 streamlit run streamlit_app.py
 ```
